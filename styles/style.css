@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,700&display=swap');
+
+:root{
+
+    --mainCollor : #136223;
+    --seconderyCollor : #21243D;
+    --accentCollor : #EDF7FA;
+    --bodyCollor : #fff;
+}
+
+body {
+
+    background-color: var(--bodyCollor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+/* Hero */
+section h1 {
+
+    font-size: 44px;
+    color: var(--seconderyCollor);
+    font-weight: 700;
+    line-height: 60px;
+}
+
+#hero {
+
+    color: var(--seconderyCollor);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    min-height: 100vh;
+    padding-top: 120px;
+}
+
+/* End Hero*/
+
+/* Contact and Education*/
+
+#information{
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--accentCollor);
+    padding: 20px;
+}
+
+.col-5 h3 {
+    color: var(--mainCollor);
+    font-size: 18px;
+    font-weight: 600;
+}
+/*  End Contact and Education*/
+
+/* PROJECT/experience */
+
+#project {
+
+    min-height: 600px;
+    width: 100%;
+}
+
+#project h5 {
+
+    color: var(--mainCollor);
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+#project h2 {
+
+    color: var(--seconderyCollor);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+
+}
+
+#project img{
+    width: 70%;
+    margin: 10px;
+}
+/* End PROJECT/experience*/
+
+/* Section Footer*/
+.social-icon img{
+
+    margin-right: 20px;
+}
+
+.text p{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+margin-top: 20px;
+}
+/* End Section Footer*/
